@@ -1,13 +1,24 @@
 export default { 
-    Name: "movieChannelACard ",
-    components: ["movieChannelAcard "],
+    Name: "channelACard ",
+    components: ["movie "],
 
-data: function() { return { myName: this.movie.name, myYear: this.movie.year,
-myDescription: this.movie.description, program: "IDP", removeAformat: true,
-showBioData: false } }, 
+data: 
+
+
+function() {
+    return {
+        myName: this.movie.name,
+        myYear: this.work.year,
+        myDescription: this.movie.description,
+        program: "IDP",
+        removeAformat: true,
+        showBioData: false
+    }
+},
+
 template: `
 <li @click="logClicked">
-        <img :src="'imagesC-A/' + movie.image" :alt='movie.name + " image"'>
+        <img :src="'imagesAdult/' + movie.image" :alt='movie.name + " image"'>
         
         <p class=" remove-movie">{{ movie.name }}</p>
 
@@ -17,5 +28,7 @@ template: `
 `, 
 created: function () { console.log(`created ${this.movie.name}'s card`); },
 
-methods: { logClicked() { console.log(`fired from inside ${this.movie.name}'s
-component!`); this.$emit("showmydata", this.movie) } } }
+methods: { 
+    logClicked() { 
+        console.log(`fired from inside ${this.movie.name}'scomponent!`); 
+        this.$emit("showmydata", this.movie) } } }
