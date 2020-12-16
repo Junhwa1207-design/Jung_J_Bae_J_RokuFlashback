@@ -23,7 +23,7 @@
         </label>
        <label class="logo">LOKU</label>
      
-      <ul class="nav-whole">
+       <ul class="nav-whole">
            <li class="nav-all"><a href="index.html">Home</a></li>
            <li class="nav-all"><a class="active"  href="howItWorks.html">Roku Music</a></li>
            <li class="nav-all"><a href="channel.html">Roku Chennel</a></li>
@@ -77,15 +77,13 @@
  </div>
 
  <main id="app">
-   <!-- <img src="imagesC-A/tvChannelA1.jpg" alt="">
-    <img src="imagesC-A/tvChannelA2.jpg" alt="">
-    <img src="imagesC-A/tvChannelA3.jpg" alt="">-->
 
-    <ul class="video">
-        <movieChannelA-card @showmydata="showMovieData" v-for="video in movieChannelA" :movie="video" :key="video.id"></movieChannelA-card>
+
+    <ul class="work">
+        <channela-card @showmydata="showMovieData" v-for="work in channelA" :movie="work" :key="work.id"></channela-card>
           
       <section class="bio-data" :class="{'show-bio' : showBioData}">
-            <h1>{{currentMovieChannelAData.year}}</h1>
+            <h1>{{currentMovieChannelAData.name}}</h1>
             <p>{{currentMovieChannelAData.description}}</p>
         </section>
     </ul>
