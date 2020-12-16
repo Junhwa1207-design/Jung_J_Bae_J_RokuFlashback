@@ -1,0 +1,89 @@
+.slider-kids {
+  width: 100%;
+  border: 20px slide#b8a9bd;
+  margin-top: 0px auto;
+  background: rgb(0, 0, 0);
+  padding: 8%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-kids .left-slide,
+.slider-kids .right-slide {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #b8a9bd;
+  border-radius: 50%;
+  color: ffffff;
+  font-size: 30px;
+  top: 65%;
+  margin-top: -10px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.slider-kids .left-slide:hover,
+.slider .right-slide:hover {
+  background-color: rgb(253, 223, 248);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.slider-kids .left-slide {
+  left: 30px;
+}
+.slider-kids .right-slide {
+  right: 30px;
+}
+.slider-kids .slider-items .item img {
+  max-width: 100%;
+  display: block;
+  animation: zoom 1s ease;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.slider-kids .slider-items .item {
+  //max-width: 100%;
+  display: none;
+  position: relative;
+}
+.slider-kids .slider-items .item .caption {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slider-kids .slider-items .item.active {
+  display: block;
+}
+
+.mainKids {
+  width: 100%;
+  height: 500px;
+  background-color: #89ebee;
+}
+h1 {
+  color: white;
+  padding-top: 0;
+}
+p {
+  color: white;
+}
