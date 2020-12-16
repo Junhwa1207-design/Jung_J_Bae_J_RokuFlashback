@@ -4,7 +4,7 @@ $result = array();
 
 function getAllUsers($conn)
 {
-    $query = "SELECT * FROM tbl_channelA";
+    $query = "SELECT * FROM channelA";
 
     $runQuery = $conn->query($query);
 
@@ -19,7 +19,7 @@ function getAllUsers($conn)
 //get a specific user
 function getSingleUser($conn, $id)
 {
-    $query = "SELECT * FROM tbl_channelA WHERE id=" . $id . "";
+    $query = "SELECT * FROM channelA WHERE id=" . $id . "";
 
     
 
