@@ -1,6 +1,7 @@
 <?php
    include('connect.php');
    include('functionA.php');
+   //include('functionB.php');
    include('send.php');
 
 
