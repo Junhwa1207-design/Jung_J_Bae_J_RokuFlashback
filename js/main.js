@@ -1,7 +1,7 @@
 import { fetchData} from "./modules/TheDataMiner.js";
 import { SendMail } from "./modules/mailer.js";
 import channelACard from "./modules/channelACard.js";
-//import channelKCard from "./modules/channelKCard.js";
+import channelKCard from "./modules/channelKCard.js";
 
 
 
@@ -55,7 +55,7 @@ const myVM =(()=> {
  
             console.log('clicked to view movieChannelA bio-data', target, target.name);
             this.showBioData = this.showBioData ? false : true;
-            this. currentMovieChannelAData = target;
+        
             this. currentMovieChannelKData = target;
         }
     },
