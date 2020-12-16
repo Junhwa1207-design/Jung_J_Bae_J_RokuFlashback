@@ -8,7 +8,7 @@ data:
 function() {
     return {
         myName: this.movie.name,
-        myYear: this.work.year,
+        myYear: this.movie.year,
         myDescription: this.movie.description,
         program: "IDP",
         removeAformat: true,
