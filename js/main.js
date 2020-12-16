@@ -2,7 +2,7 @@ import { fetchData} from "./modules/TheDataMiner.js";
 import { SendMail } from "./modules/mailer.js";
 import channelACard from "./modules/channelACard.js";
 //import channelKCard from "./modules/channelKCard.js";
-//import movieChannelACard from "./modules/header.js";
+
 
 
 const myVM =(()=> {
