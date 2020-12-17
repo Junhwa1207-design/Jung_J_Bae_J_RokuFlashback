@@ -1,4 +1,4 @@
-# This is Roku Flashback streaning App. 
+# This is Roku Flashback streaming App. 
 
 For the music and the movie contents, A user can choose between adult and kid use for movie session on the landing page.
 For the movie session, it used the MAMP for the server side, for the data. And it used javascript as a front-end framework. 
