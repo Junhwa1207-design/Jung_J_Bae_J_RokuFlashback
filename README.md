@@ -1,11 +1,9 @@
 # This is Roku Flashback streaming App. 
 
-For the music and the movie contents, A user can choose between adult and kid use for movie session on the landing page.
-For the movie session, it used the MAMP for the server side, for the data. And it used javascript as a front-end framework. <br><br>
-Dev&Des documents <br>
-Dev notes(Google Drive doc): https://docs.google.com/document/d/1e9XbTIkamD6_DCrIqs2UEj0JynCrLuZXfcUcCtRDZCs/edit?usp=sharing <br>
-Des notes(Google Drive doc): https://docs.google.com/document/d/1ugDVfYTR-tIkn8UB6x0UDFrJxtEf4HhKKv-lGx0R_r4/edit?usp=sharing
+## Junhwa Jung & Jiyun Bae
 
+For the music and the movie contents, A user can choose between adult and kid use for movie session on the landing page.
+For the movie session, it used the MAMP for the server side, for the data. And it used javascript as a front-end framework.
 
 A challenge
 ===============
@@ -13,13 +11,10 @@ A challenge
 1. The simultaneous use of vue.js and javascript in one file.
 2. The use of multiple database of table and to use linking database. 
 
-***Designer: Jiyun Bae|
-Developer: Junhwa Jung***
-
 ## Document Link
 
-Design notes: https://docs.google.com/document/d/1ugDVfYTR-tIkn8UB6x0UDFrJxtEf4HhKKv-lGx0R_r4/edit?usp=sharing <br>
-Dev notes: 
+Dev notes(Google Drive doc): https://docs.google.com/document/d/1e9XbTIkamD6_DCrIqs2UEj0JynCrLuZXfcUcCtRDZCs/edit?usp=sharing <br>
+Des notes(Google Drive doc): https://docs.google.com/document/d/1ugDVfYTR-tIkn8UB6x0UDFrJxtEf4HhKKv-lGx0R_r4/edit?usp=sharing
 
 ## Installation
 
