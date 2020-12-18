@@ -10,9 +10,6 @@ A challenge
 1. The simultaneous use of vue.js and javascript in one file.
 2. The use of multiple database of table and to use linking database. 
 
-***Designer: Jiyun Bae|
-Developer: Junhwa Jung***
-
 ## Installation
 
 MAMP (https://www.mamp.info/en/mamp/mac/) <br>
