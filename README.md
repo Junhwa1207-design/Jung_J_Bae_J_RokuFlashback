@@ -13,7 +13,7 @@ A challenge
 
 ## Document Link
 
-Dev notes(Google Drive doc): https://docs.google.com/document/d/1e9XbTIkamD6_DCrIqs2UEj0JynCrLuZXfcUcCtRDZCs/edit?usp=sharing <br>
+Dev notes(Google Drive doc): https://docs.google.com/document/d/14DII8RQRfD5p0zRI2zo5E0J-IKBRenaSo2wh9uSRh1w/edit?usp=sharing <br>
 Des notes(Google Drive doc): https://docs.google.com/document/d/1ugDVfYTR-tIkn8UB6x0UDFrJxtEf4HhKKv-lGx0R_r4/edit?usp=sharing
 
 ## Installation
